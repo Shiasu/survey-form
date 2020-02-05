@@ -1,0 +1,14 @@
+{
+  "name": "fcc-project-survey-form",
+  "version": "1.0.0",
+  "description": "_A Pen created at CodePen.io. Original URL: [https://codepen.io/Shiasu/pen/gydKYB](https://codepen.io/Shiasu/pen/gydKYB).",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "npm": "^6.13.7"
+  }
+}

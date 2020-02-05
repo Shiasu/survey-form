@@ -1,0 +1,149 @@
+<html>
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <script src="https://cdn.freecodecamp.org/testable-projects-fcc/v1/bundle.js"></script>
+    <title>Full biography</title>
+  </head>
+  <body>
+    <main>
+      <div id="title-wrapper">
+        <h1 id="title">Survey form</h1>
+        <h2>Full biography</h2>
+      </div>
+      <div id="form-wrapper">
+        <p id="description">Tell your descendants about yourself</p>
+        <hr><br><br>
+        <form id="survey-form" method="GET" action="">
+          <div class=row-tab>
+            <div class="labels">
+              <label id="name-label" for="name">*Name</label>
+            </div>
+            <div class="inputs">
+              <input type="text" name="name" id="name" placeholder="Enter your name" autofocus required>
+            </div>
+          </div>
+          <div class=row-tab>
+            <div class="labels">
+              <label id="last-name-label" for="last-name">*Last-name</label>
+            </div>
+            <div class="inputs">
+              <input type="text" name="last-name" id="last-name" placeholder="Enter your last-name" autofocus required>
+            </div>
+          </div>
+          <div class=row-tab>
+            <div class="labels">
+              <label id="gender-label" for="gender">*Gender</label>
+            </div>
+            <div class="inputs">
+              <ul style="list-style: none;">
+                <li class="gender-buttons"><label>Male<input type="radio" name="gender-radio" class="gender" value="male"></label></li>
+                <li class="gender-buttons"><label>Female<input type="radio" name="gender-radio" class="gender" value="female"></label></li>
+                <li class="gender-buttons"><label>Another<input type="radio" name="gender-radio" class="gender" value="another"></label></li>
+              </ul>
+            </div>
+          </div>
+          <div class=row-tab>
+            <div class="labels">
+              <label id="birth-date-label" for="birth-date">*Birth date</label>
+            </div>
+            <div class="inputs">
+              <input type="date" name="birth-date" id="birth-date" placeholder="Enter your birth-date" autofocus required>
+            </div>
+          </div>
+          <div class=row-tab>
+            <div class="labels">
+              <label id="birth-place-label" for="birth-place">Place of birth</label>
+            </div>
+            <div class="inputs">
+              <input type="text" name="birth-place" id="birth-place" placeholder="Enter your place of birth" autofocus>
+            </div>
+          </div>
+          <div class=row-tab>
+            <div class="labels">
+              <label id="marital-status-label" for="marital-status">Marital status</label>
+            </div>
+            <div class="inputs">
+              <select id="dropdown" name="marital-status" class="dropdown">
+                <option disabled value>Select an option</option>
+                <option value="single">Single</option>
+                <option value="married">Married</option>
+                <option value="widowed">Widowed</option>
+                <option value="divorced">Divorced</option>
+              </select>
+            </div>
+          </div>
+          <div class=row-tab>
+            <div class="labels">
+              <label id="height-label" for="height">Height in centimeters</label>
+            </div>
+            <div class="inputs">
+              <input type="number" min="1" max="300" name="height" id="height" placeholder="Enter your height" autofocus>
+            </div>
+          </div>
+          <div class=row-tab>
+            <div class="labels">
+              <label id="weight-label" for="weight">Weight in kilograms</label>
+            </div>
+            <div class="inputs">
+              <input type="number" min="1" max="700" name="weight" id="weight" placeholder="Enter your weight" autofocus>
+            </div>
+          </div>
+          <div class=row-tab>
+            <div class="labels">
+              <label id="color-label" for="color">Favorite colors</label>
+            </div>
+            <div class="inputs">
+              <ul style="list-style: none;">
+                <li class="color-buttons"><label>Red<input type="checkbox" name="color-checkbox" class="color" value="red"></label></li>
+                <li class="color-buttons"><label>Green<input type="checkbox" name="color-checkbox" class="color" value="green"></label></li>
+                <li class="color-buttons"><label>Blue<input type="checkbox" name="color-checkbox" class="color" value="blue"></label></li>
+                <li class="color-buttons"><label>Violet<input type="checkbox" name="color-checkbox" class="color" value="violet"></label></li>
+                <li class="color-buttons"><label>Orange<input type="checkbox" name="color-checkbox" class="color" value="orange"></label></li>
+                <li class="color-buttons"><label>Yellow<input type="checkbox" name="color-checkbox" class="color" value="byellow"></label></li>
+                <li class="color-buttons"><label>Indigo<input type="checkbox" name="color-checkbox" class="color" value="indigo"></label></li>
+              </ul>
+            </div>
+          </div>
+          <div class=row-tab>
+            <div class="labels">
+              <label id="number-label" for="number">Favorite number</label>
+            </div>
+            <div class="inputs">
+              <input type="number" name="number" id="number" min="0" max="9" placeholder="Enter your favorite number" autofocus>
+            </div>
+          </div>
+          <div class=row-tab>
+            <div class="labels">
+              <label id="email-label" for="email">*Email</label>
+            </div>
+            <div class="inputs">
+              <input type="email" name="email" id="email" placeholder="Enter your email" autofocus required>
+            </div>
+          </div>
+          <div class=row-tab>
+            <div class="labels">
+              <label id="number-label" for="phone-number">Telephone number</label>
+            </div>
+            <div class="inputs">
+              <input type="tel" name="phone-number" id="phone-number" placeholder="Enter your phone number" autofocus>
+            </div>
+          </div>
+          <div class=row-tab>
+            <div class="labels">
+              <label id="about-yourself-label" for="about-yourself">Most important about yourself</label>
+            </div>
+            <div class="inputs">
+              <textarea name="about-yourself" id="about-yourself" placeholder="Just something..."></textarea>
+            </div>
+          </div>
+          <button id="submit" type="submit">Submit</button>
+        </form>
+      </div>
+      <div id="footer">
+        <h4>Technologies for humanity</h4>
+        <h5>&copy Shiasu inc.</h5>
+      </div>
+    </main>
+  </body>
+</html>
