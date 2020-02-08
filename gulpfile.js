@@ -4,7 +4,7 @@ let autoprefixer = require("gulp-autoprefixer");
 
 gulp.task("prefix", function() {
 	return gulp.src("src/*.css")
-		.pipe(prefixer({
+		.pipe(autoprefixer({
 			overrideBrowserslist: ["last 10 versions"],
 			cascade: false
 		}))
