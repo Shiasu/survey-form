@@ -88,6 +88,10 @@ label {
   -webkit-justify-content: flex-start;
   justify-content: flex-start;
 }
+
+.inputs ul {
+  list-style: none;
+}
 input {
   width: 250px;
   height: 22px;
